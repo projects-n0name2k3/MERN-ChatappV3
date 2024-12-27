@@ -18,8 +18,8 @@ const Sidebar = () => {
   <AvatarImage src="https://github.com/shadcn.png" />
   <AvatarFallback>CN</AvatarFallback>
 </Avatar>
-<button  className="size-12 border border-gray-300 bg-white duration-300 grid place-items-center rounded-md hover:bg-[#f5f5f5]">
-<IoSettingsOutline size={24}/>
+<button className="size-12 border border-gray-300 bg-white duration-300 grid place-items-center rounded-md hover:bg-[#f5f5f5] active:scale-95">
+  <IoSettingsOutline size={24} />
 </button>
 
  </div>

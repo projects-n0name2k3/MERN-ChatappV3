@@ -14,9 +14,9 @@ const ChatContainer = () => {
     </div>
     <Tabs defaultValue={location.pathname.split("/")[1] || "/"} className="w-full">
   <TabsList className="w-full justify-start bg-transparent">
-    <TabsTrigger onClick={() => navigate("/")} value="/" className="basis-1/3 data-[state=active]:bg-[#6d31ed] text-[#6d31ed]  data-[state=active]:text-white rounded-r-none border border-[#6d31ed]">All</TabsTrigger>
-    <TabsTrigger onClick={() => navigate("direct")} value="direct" className="basis-1/3 data-[state=active]:bg-[#6d31ed] text-[#6d31ed]  data-[state=active]:text-white rounded-none border border-[#6d31ed]">Direct</TabsTrigger>
-    <TabsTrigger onClick={() => navigate("group")} value="group" className="basis-1/3 data-[state=active]:bg-[#6d31ed] text-[#6d31ed]  data-[state=active]:text-white rounded-l-none border border-[#6d31ed]">Group</TabsTrigger>
+    <TabsTrigger onClick={() => navigate("/")} value="/" className="font-manrope basis-1/3 data-[state=active]:bg-primary text-primary  data-[state=active]:text-white rounded-r-none border border-primary">All</TabsTrigger>
+    <TabsTrigger onClick={() => navigate("direct")} value="direct" className="font-manrope basis-1/3 data-[state=active]:bg-primary text-primary  data-[state=active]:text-white rounded-none border border-primary">Direct</TabsTrigger>
+    <TabsTrigger onClick={() => navigate("group")} value="group" className="font-manrope basis-1/3 data-[state=active]:bg-primary text-primary  data-[state=active]:text-white rounded-l-none border border-primary">Group</TabsTrigger>
   </TabsList>
   <div className="mt-4">
 <Outlet/>
